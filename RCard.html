@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PortFolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./RCard.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="./Untitled design.png" alt="..." class="img-pro"/>
+        <div class="left">Nitish Kumar</div>
+        <div class="right">
+          <ul>
+            <li>Home</li>
+            <li>About Me</li>
+            <li>Project</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="main">
+      <div class="about">
+        <h1>
+          HEY, I'M Nitish Kumar
+        </h1>
+        <p>
+          As a web developer, my objective is to create user-friendly and efficient websites that are visually appealing and easy to navigate. &nbsp; I utilize my skills in  <span id="element"></span> <br/>to develop websites that meet all the requirements of the client.
+        </p>
+        <img src="https://www.freepnglogos.com/uploads/hacker-png/hacker-mid-pacific-ict-center-cyberfed-magnificent-seven-2.png" alt="..." class="img-hack"/>
+      </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['HTML,', 'CSS,','JavaScript,','and React.'],
+        typeSpeed: 70,
+      });
+    </script>
+  </body>
+</html>
