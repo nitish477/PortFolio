@@ -15,14 +15,14 @@
   <body>
     <header>
       <nav>
-        <img src="./Untitled design.png" alt="..." class="img-pro"/>
+        <img src="./Untitled design.png" alt="..." class="img-pro" />
         <div class="left">Nitish Kumar</div>
         <div class="right">
           <ul>
-            <li>Home</li>
-            <li>About Me</li>
-            <li>Project</li>
-            <li>Contact</li>
+            <li><a href="#h">Home</a></li>
+            <li><a href="#am">About Me</a></li>
+            <li><a href="#p">Project</a></li>
+            <li><a href="#c">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -30,22 +30,51 @@
 
     <div class="main">
       <div class="about">
-        <h1>
-          HEY, I'M Nitish Kumar
-        </h1>
+        <h1 id="h">HEY, I'M Nitish Kumar</h1>
         <p>
-          As a web developer, my objective is to create user-friendly and efficient websites that are visually appealing and easy to navigate. &nbsp; I utilize my skills in  <span id="element"></span> <br/>to develop websites that meet all the requirements of the client.
+          As a web developer, my objective is to create user-friendly and
+          efficient websites that are visually appealing and easy to navigate.
+          &nbsp; I utilize my skills in <span id="element"></span> <br />to
+          develop websites that meet all the requirements of the client.
         </p>
-        <img src="https://www.freepnglogos.com/uploads/hacker-png/hacker-mid-pacific-ict-center-cyberfed-magnificent-seven-2.png" alt="..." class="img-hack"/>
+        <img
+          src="https://www.freepnglogos.com/uploads/hacker-png/hacker-mid-pacific-ict-center-cyberfed-magnificent-seven-2.png"
+          alt="..."
+          class="img-hack"
+        />
+        <button class="bnt-resume">Resume</button>
+        <button class="bnt-resume">Hire Me</button>
+        <hr />
       </div>
     </div>
+    <div class="aboutme">
+      <div class="am" id="am">About Me </div>
+      <p class="more">
+        Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology
+      </p>
+    </div>
+<!--About Me-->
+<div class="contanier">
+  <div class="card">
+    <p class="gktm">
+      Get Know To Me
+    </p>
+    <p class="ed">Education</p>
+  </div>
+  <div class="card"></div>
+</div>
+
+
+
+    <!--Script-->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
     <script>
-      var typed = new Typed('#element', {
-        strings: ['HTML,', 'CSS,','JavaScript,','and React.'],
+      var typed = new Typed("#element", {
+        strings: ["HTML,", "CSS,", "JavaScript,", "and React."],
         typeSpeed: 70,
       });
     </script>
+    <!--Script-->
   </body>
 </html>
