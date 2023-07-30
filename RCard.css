@@ -78,6 +78,7 @@ nav ul li a{
   background-color: rgb(98, 165, 165);
   color: black;
   cursor: pointer;
+  box-shadow: none;
   transition: 1s;
   transform: scale(0.9)
 }
@@ -110,7 +111,8 @@ left: 550px;
   flex-wrap: wrap;
 }
 .card{
-  height: 100vh;
+  height: 130vh;
+  position: relative;
   width: 40%;
   margin: 35px 60px;
   border-radius: 10px;
@@ -125,6 +127,60 @@ left: 550px;
       border-bottom: 3px solid rgb(135, 135, 206);
 }
 .ed{
-  margin: 40px 210px;
-  
+  margin: 40px 180px;
+  border: 1px solid rgb(55, 55, 75);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 45px;
+  padding-right: 25px;
+}
+.btech{
+  margin-top: -20px;
+  margin-left: 30px;
+}
+.list{
+  width: 300px;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  margin-left: 60px;
+}
+.extra{
+  margin-top: 20px;
+}
+.line{
+  margin: 20px ;
+}
+.bnt-con{
+ margin: 50px 200px;
+ padding: 10px 35px;
+ border: none;
+ border-radius: 5px;
+ background-color: rgb(83, 71, 94);
+}
+.bnt-con a{
+  text-decoration: none;
+  color: white;
+}
+.wd{
+  margin: 50px 180px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  border: 1px solid rgb(55, 55, 75);
+}
+.icon{
+  display: flex;
+
+}
+.icon-img{
+  height: 50px;
+  margin-left: 70px;
+  margin-top: -18px;
+}
+.icon-n{
+  margin-top: 30px;
+  margin-left: -47px;
+}
+.extra1{
+  margin-left:70px ;
 }
