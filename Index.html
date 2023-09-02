@@ -103,7 +103,7 @@
             </div>
             <div class="modal-footer bg-darks">
               <button type="button" class="btn btn-outline-danger rounded-0" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-outline-success rounded-0">Submit</button>
+              <button type="submit" class="btn btn-outline-success rounded-0">Submit</button>
             </div>
           </div>
         </div>
@@ -166,15 +166,23 @@
   </div>
   <div class="col-md-4 col-sm-6 col- card">
    <p class="text-center text-light">skills</p>
-  <div class="container d-flex  justify-content-around">
-    <img src="https://cdn-icons-png.flaticon.com/128/174/174854.png" alt="" class="img">
+  <div class="container ">
+    <img src="https://cdn-icons-png.flaticon.com/128/174/174854.png" alt="" class="img ">
     <img src="https://cdn-icons-png.flaticon.com/128/732/732190.png" alt="" class="img ">
     <img src="https://cdn-icons-png.flaticon.com/128/5968/5968672.png" alt="" class="img ">
-    <img src="https://cdn-icons-png.flaticon.com/128/11104/11104255.png" alt="" class="img">
+    <img src="https://cdn-icons-png.flaticon.com/128/11104/11104255.png" alt="" class="img"> <br>
+    <img src="https://cdn-icons-png.flaticon.com/128/5243/5243360.png" alt="" class="img">
+    <img src="https://cdn-icons-png.flaticon.com/128/226/226777.png" alt="" class="img">
+    <img src="https://cdn-icons-png.flaticon.com/128/1199/1199124.png" alt="" class="img">
+    <img src="https://cdn-icons-png.flaticon.com/128/873/873143.png" alt="" class="img">
     <p></p>
   </div>
   </div>
   </div>
+<h1 class="text-center text-light">Projects</h1>
+<div class="row" id="projectHolder">
+    
+</div>
 
 
 
@@ -189,7 +197,29 @@
 
 
 
+<!-----------------------Project Cards--------------------------------->
+<script>
 
+const Projects=document.getElementById('projectHolder');
+let projectHolder=[
+ 
+]
+
+for(let i=0; i<projectHolder.length; i++)
+{
+  
+  Projects.innerHTML= Projects.innerHTML+`
+  <div class="col-md-4 col-sm-6 col- card text-white" >
+        ${JSON.stringify(projectHolder[i])}
+      </div>
+  `
+}
+
+
+</script>
+
+
+<!-----------------------------Project Cards---------------------------->
 
 
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
