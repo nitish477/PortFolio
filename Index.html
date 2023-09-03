@@ -182,21 +182,32 @@
 
 
 
-
 <!-----------------------Project Cards--------------------------------->
 <script>
 
 const Projects=document.getElementById('projectHolder');
 let projectHolder=[
-
+{
+  title:'Sport Galaxy',
+  description : 'Welcome to Sports Gallaxy This platform is dedicated to providing you with the latest updates, news, and insights from the world of sports.'
+},
+{
+  title:'Cricket'
+},
+{
+  title:'Football'
+}
 ]
 
 for(let i=0; i<projectHolder.length; i++)
 {
   
   Projects.innerHTML= Projects.innerHTML+`
-  <div class="col-md-4 col-sm-6 col- card text-white" >
-        ${JSON.stringify(projectHolder[i])}
+  <div class="col-md-4 col-sm-6 col- card text-white mb-3 " >
+        ${JSON.stringify("Project Name: "+projectHolder[i].title)} <br>
+        ${JSON.stringify( "Description : "+ projectHolder[i].description )}
+         
+        <button class="btn btn-outline-success mx-5 fonts my-2">Demo</button>
       </div>
   `
 }
