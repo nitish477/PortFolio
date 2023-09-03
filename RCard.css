@@ -54,8 +54,38 @@
 .img{
     height: 50px;
     width: 50px;
-    margin: 0.8rem 1.5rem;
+   margin: 0.5rem 1rem;
 }
+
+.fonts{
+    font-family: 'Lato';
+   font-weight: 400;
+   text-align: justify;
+}
+.fonts span a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato';
+}
+
+
+.pro-img{
+   height: 220px;
+   width: 300px;
+   padding: 5px;
+   filter: drop-shadow(0 0 1rem black);
+   border-radius: 5px;
+}
+
+.texts a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato';
+}
+
+
+
+
 
 
 
