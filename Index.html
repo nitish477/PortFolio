@@ -14,7 +14,8 @@
   <link rel="stylesheet" href="./RCard.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
 </head>
 
 <body class="bg-darks">
@@ -22,9 +23,41 @@
     <div class="container-fluid">
 
       <a class="navbar-brand" href="#">Portfolio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+  
+<!-------------------------------------------->
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#about-me">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#project">Projects</a>
+        </li>
+      
+       
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+
+
+<!-------------------------------------------->
+
+      
+      <button class="navbar-toggler btn btn-outline-success border-0 rounded-1 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
         aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="text-light">Info</span>
       </button>
       <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
         aria-labelledby="offcanvasDarkNavbarLabel">
@@ -34,22 +67,25 @@
             aria-label="Close"></button>
         </div>
         <div class="offcanvas-body fonts">
-
-          <img src="./Untitled design.png" alt="" class="pro-img"> <br>
+          <div class="img-card">
+            <img src="./Untitled design.png" alt="" class="pro-img">
+          </div>
           Name : Nitish Kumar <br>
-          Role  : &nbsp;  Web develop <br>
+          Role : &nbsp; Web develop <br>
           D.O.B : 13/05/2330 <br>
-         Address : Kapsi Bk Bhandara Road,(Nagpur) <br>
-        Email   : <span> <a href="mailto:krnitish8453@gmail.com">krnitish8453@gmail.com</a></span> <br>
-        Mobile No. : <span class="texts"> <a href="tel: 7563858453">7563858453</a> </span> <br>
-        Maritial Status : Single
-        </div>
+          Address : Kapsi Bk Bhandara Road,(Nagpur) <br>
+          Email : <span> <a href="mailto:krnitish8453@gmail.com">krnitish8453@gmail.com</a></span> <br>
+          Mobile No. : <span class="texts"> <a href="tel: 7563858453">7563858453</a> </span> <br>
+          Maritial Status : Single <br> <br>
+        <a href="https://www.instagram.com/nitish_ojha5/">  <i class="fa-brands fa-instagram fa-xl" style="color: #8c0ced;"></i> </a> &nbsp;&nbsp;
+        <a href="https://www.linkedin.com/in/nitish-kumar-ojha/"><i class="fa-brands fa-linkedin fa-xl" style="color: #8c0ced;"></i></a> &nbsp;&nbsp;
+        <a href="https://github.com/nitish477"><i class="fa-brands fa-github fa-xl" style="color: #8c0ced;"></i></a>
       </div>
     </div>
   </nav>
 
 
-  <div class="row">
+  <div class="row" id="home">
     <div class="col-md-6 col-sm-6 col-">
       <h1 class="mt-5 pt-5 px-3 text-light">HEY, I'M Nitish Kumar</h1>
       <p class="px-3 text-light">
@@ -95,7 +131,8 @@
         </div>
       </div>
 
-     <a href="https://bit.ly/NitishResume" target="_blank"> <button class="bnt-resume" type="button">Resume</button></a>
+      <a href="https://bit.ly/NitishResume" target="_blank"> <button class="bnt-resume"
+          type="button">Resume</button></a>
     </div>
     <div class="col-md-6 col-sm-6 col-">
 
@@ -108,7 +145,7 @@
   <hr class="text-info fs-1 fw-bolder m-3">
 
 
-  <div class="row">
+  <div class="row" id="about-me">
     <div class="col-md-12 col-sm-12 col-">
       <h3 class="text-center text-light">About Me</h3>
       <p class="p-2 text-light text-center">
@@ -149,74 +186,69 @@
       <p class="text-light">
         I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that
         matches my skills and experience then don't hesitate to contact me.</p>
-  </div>
-  <div class="col-md-4 col-sm-6 col- card">
-   <p class="text-center text-light">skills</p>
-  <div class="container ">
-    <img src="https://cdn-icons-png.flaticon.com/128/174/174854.png" alt="" class="img ">
-    <img src="https://cdn-icons-png.flaticon.com/128/732/732190.png" alt="" class="img ">
-    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968672.png" alt="" class="img ">
-    <img src="https://cdn-icons-png.flaticon.com/128/11104/11104255.png" alt="" class="img"> <br>
-    <img src="https://cdn-icons-png.flaticon.com/128/5243/5243360.png" alt="" class="img">
-    <img src="https://cdn-icons-png.flaticon.com/128/226/226777.png" alt="" class="img">
-    <img src="https://cdn-icons-png.flaticon.com/128/1199/1199124.png" alt="" class="img">
-    <img src="https://cdn-icons-png.flaticon.com/128/873/873143.png" alt="" class="img">
-    <p></p>
-  </div>
-  </div>
-  </div>
-<h1 class="text-center text-light">Projects</h1>
-<div class="row" id="projectHolder">
-    
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-----------------------Project Cards--------------------------------->
-<script>
-
-const Projects=document.getElementById('projectHolder');
-let projectHolder=[
-{
-  title:'Sport Galaxy',
-  description : 'Welcome to Sports Gallaxy This platform is dedicated to providing you with the latest updates, news, and insights from the world of sports.'
-},
-{
-  title:'Cricket'
-},
-{
-  title:'Football'
-}
-]
-
-for(let i=0; i<projectHolder.length; i++)
-{
-  
-  Projects.innerHTML= Projects.innerHTML+`
-  <div class="col-md-4 col-sm-6 col- card text-white mb-3 " >
-        ${JSON.stringify("Project Name: "+projectHolder[i].title)} <br>
-        ${JSON.stringify( "Description : "+ projectHolder[i].description )}
-         
-        <button class="btn btn-outline-success mx-5 fonts my-2">Demo</button>
+    </div>
+    <div class="col-md-4 col-sm-6 col- card">
+      <p class="text-center text-light">skills</p>
+      <div class="container ">
+        <img src="https://cdn-icons-png.flaticon.com/128/174/174854.png" alt="" class="img ">
+        <img src="https://cdn-icons-png.flaticon.com/128/732/732190.png" alt="" class="img ">
+        <img src="https://cdn-icons-png.flaticon.com/128/5968/5968672.png" alt="" class="img ">
+        <img src="https://cdn-icons-png.flaticon.com/128/11104/11104255.png" alt="" class="img"> <br>
+        <img src="https://cdn-icons-png.flaticon.com/128/5243/5243360.png" alt="" class="img">
+        <img src="https://cdn-icons-png.flaticon.com/128/226/226777.png" alt="" class="img">
+        <img src="https://cdn-icons-png.flaticon.com/128/1199/1199124.png" alt="" class="img">
+        <img src="https://cdn-icons-png.flaticon.com/128/873/873143.png" alt="" class="img">
+        <p></p>
       </div>
-  `
-}
+    </div>
+  </div>
+  <h1 class="text-center text-light" id="project">Projects</h1>
+  <div class="row" id="projectHolder">
+
+  </div>
 
 
-</script>
 
 
-<!-----------------------------Project Cards---------------------------->
+
+
+
+
+
+
+
+
+
+  <!-----------------------Project Cards--------------------------------->
+  <script>
+    const Projects = document.getElementById('projectHolder');
+    let projectHolder = [
+      {
+        title: 'Sport Galaxy',
+        description: 'Welcome to Sports Galaxy. This platform is dedicated to providing you with the latest updates, news, and insights from the world of sports.'
+      },
+      {
+        title: 'Cricket'
+      },
+    {
+      title: 'Football'
+    }
+  ]
+
+    for (let i = 0; i < projectHolder.length; i++) {
+      Projects.innerHTML = Projects.innerHTML + `
+    <div class="col-md-4 col-sm-6 col- card text-white mb-3 " >
+          Project Name: ${projectHolder[i].title} <br>
+          Description: ${projectHolder[i].description || ''} 
+          <button class="btn btn-outline-success mx-5 fonts my-2">Demo</button>
+        </div>
+    `
+    }
+  </script>
+
+
+
+  <!-----------------------------Project Cards---------------------------->
 
 
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>

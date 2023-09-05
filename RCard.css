@@ -1,5 +1,6 @@
 * {
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .bg-darks {
@@ -70,12 +71,25 @@
 
 
 .pro-img{
-   height: 220px;
-   width: 300px;
-   padding: 5px;
-   filter: drop-shadow(0 0 1rem black);
-   border-radius: 5px;
+  height: 220px;
+  width: 300px;
+  position: absolute;
+  left: -40px;
+  filter: drop-shadow(0 0 1rem black);
+  filter: grayscale(50%);
+  -webkit-filter: grayscale(50%);
 }
+
+.pro-img:hover{
+    height: 220px;
+    width: 300px;
+    position: absolute;
+    left: -40px;
+    filter: drop-shadow(0 0 1rem black);
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+}
+  
 
 .texts a{
     text-decoration: none;
@@ -84,7 +98,15 @@
 }
 
 
-
+.img-card{
+    position: relative;
+    height: 200px ;
+    width: 200px ;
+    margin: 5px auto;
+    overflow: hidden;
+    border-radius: 50%;
+   background-color: rgb(189, 127, 247);
+}
 
 
 
